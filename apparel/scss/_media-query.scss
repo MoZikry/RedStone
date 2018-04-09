@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+    #carousel {
+        .customize {
+            .carousel-item {
+                padding: 30px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+         .row {
+        margin: 0;
+    }
+
+    .nav > li > a,
+    .navbar-brand {
+    padding: 15px 9.5px;
+    
+}
+.footer-copyright {            
+    p {
+    margin: 10px;
+    color: #6a6a6a;    
+    text-align: center;    
+
+    }    
+        
+    h6 {
+        display: none;
+    }
+}
+        
+.s {
+    padding: 2px;
+    font-size: 16px;
+    background-color: #262626;
+    margin: 1px;
+    background-size: 50px;
+}
+
+     
+}
+}
