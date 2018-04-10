@@ -1,4 +1,8 @@
-@media only screen and (max-width: 600px) {
+
+// === small devices === //
+
+@media only screen and (max-width: 47em){
+    
     #carousel {
         .customize {
             .carousel-item {
@@ -7,27 +11,23 @@
             }
         }
     }
-}
-
-
-@media screen and (max-width: 767px) {
-    #myFooter {
+    
+        #myFooter {
         text-align: center;
          .row {
         margin: 0;
     }
 
-    .nav > li > a,
-    .navbar-brand {
-    padding: 15px 9.5px;
+       .nav > li > a,
+       .navbar-brand {
+       padding: 15px 9.5px;
     
-}
-.footer-copyright {            
-    p {
-    margin: 10px;
-    color: #6a6a6a;    
-    text-align: center;    
-
+    }
+      .footer-copyright {            
+        p {
+        margin: 10px;
+        color: #6a6a6a;    
+        text-align: center;    
     }    
         
     h6 {
@@ -35,14 +35,39 @@
     }
 }
         
-.s {
+    .s {
     padding: 2px;
-    font-size: 16px;
+    font-size: 15px;
     background-color: #262626;
-    margin: 1px;
+    margin: 0px;
     background-size: 50px;
 }
 
      
 }
+    
+    .nav-btn{
+        display: block;
+    }
+    .nav-item{
+        display: none
+    }
+    .nav-tools{
+        display: block
+    }
+    .tool1{
+        display: none
+    }
+    .logo p{
+        display: none
+    }
+    .nav-wrapper ul{
+        padding-top: 1.2em;
+    }
+}
+
+@media screen and (max-width:340px){
+    .logo{
+        left: 30%;
+    }
 }
