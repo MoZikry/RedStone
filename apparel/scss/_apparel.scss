@@ -16,6 +16,8 @@
         margin-right: 15px;
     }
     
+ 
+    
     .numbers {
         padding:0 2px;
         h1 {
@@ -23,11 +25,17 @@
         font-size: 22px;
         font-weight: bolder;
         font-family: sans-serif;
+           &:hover {
+            .fa-angle-right {
+                margin-left: 25px;
+            }
+        }
     }
     
     .fa-angle-right {
         color:  #f9c606;
         margin-left: 8px;
+        transition: $transition;
     }
 }
     
@@ -45,7 +53,12 @@
     }
     
     .thumb {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
+        transition: all 0.9s ease;
+        &:hover {
+            transform: scale(1.1,1.1);
+            cursor: pointer;
+        }
     }
     
     .card-img-top {
@@ -90,6 +103,11 @@
         padding-top: 12px;
     }
     
+    .fa-angle-right {
+        margin-left: 5px;
+        transition: $transition;
+    }
+    
     span {
         color: #f9c606;
     }
@@ -97,6 +115,11 @@
     .btn-warning {
         color: white;
         border-radius: 0;
+        &:hover {
+            .fa-angle-right {
+                margin-left: 15px;
+            }
+            }
     }
 }
 
